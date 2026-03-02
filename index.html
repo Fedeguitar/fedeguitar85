@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>fedeguitar85 | Guitarra & Música</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    font-family:'Montserrat',sans-serif;
+    background:#0d0d0d;
+    color:white;
+    scroll-behavior:smooth;
+}
+header{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)),
+    url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+h1{
+    font-size:60px;
+    font-weight:800;
+}
+header p{
+    font-size:22px;
+    margin:15px 0;
+}
+button{
+    padding:15px 35px;
+    margin:10px;
+    border:none;
+    border-radius:50px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+.btn-main{
+    background:#ff4c00;
+    color:white;
+}
+.btn-main:hover{
+    background:#ff7300;
+}
+.btn-alt{
+    background:white;
+    color:black;
+}
+section{
+    padding:80px 20px;
+    text-align:center;
+}
+h2{
+    font-size:36px;
+    margin-bottom:40px;
+}
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+.card{
+    background:#1a1a1a;
+    padding:30px;
+    width:300px;
+    border-radius:15px;
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+iframe{
+    border-radius:15px;
+    width:90%;
+    max-width:600px;
+    height:315px;
+}
+.testimonial{
+    background:#1a1a1a;
+    padding:25px;
+    margin:15px auto;
+    max-width:600px;
+    border-radius:15px;
+}
+footer{
+    background:#111;
+    padding:40px;
+    text-align:center;
+}
+a{
+    color:#ff4c00;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>fedeguitar85 🎸</h1>
+    <p>Clases de guitarra & música original</p>
+    <p>Clásico • Rock • Folklore</p>
+    <a href="https://wa.me/549XXXXXXXXXX">
+        <button class="btn-main">Reservar Clase</button>
+    </a>
+    <a href="#musica">
+        <button class="btn-alt">Escuchar Música</button>
+    </a>
+</header>
+
+<section>
+    <h2>Clases de Guitarra</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Clases Online</h3>
+            <p>Personalizadas para todos los niveles.</p>
+        </div>
+        <div class="card">
+            <h3>Técnica & Estilo</h3>
+            <p>Desde clásico hasta rock y folklore.</p>
+        </div>
+        <div class="card">
+            <h3>Improvisación</h3>
+            <p>Desarrollá creatividad y oído musical.</p>
+        </div>
+    </div>
+</section>
+
+<section id="musica">
+    <h2>Mi Música</h2>
+    <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID"
+    allowfullscreen></iframe>
+</section>
+
+<section>
+    <h2>Testimonios</h2>
+    <div class="testimonial">
+        <p>"Excelente profe, explica claro y se adapta a tu nivel."</p>
+    </div>
+    <div class="testimonial">
+        <p>"Aprendí desde cero y ahora puedo tocar mis canciones favoritas."</p>
+    </div>
+</section>
+
+<section>
+    <h2>Contacto</h2>
+    <p>Instagram: <a href="#">@fedeguitar85</a></p>
+    <p>Email: tuemail@gmail.com</p>
+</section>
+
+<footer>
+    © 2026 fedeguitar85 | Todos los derechos reservados
+</footer>
+
+</body>
+</html>
